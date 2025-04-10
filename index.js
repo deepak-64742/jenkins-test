@@ -6,6 +6,7 @@ function average(numbers) {
     }
   
     let sum = 0;
+    let unusedVariable = 5; // Introduce an unused variable
     for (let num of numbers) {
       sum += num;
     }
